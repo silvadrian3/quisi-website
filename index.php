@@ -181,10 +181,10 @@
 				<div class="col-md-4">
 					<div class="grid mask">
 						<figure> 
-							<img class="img-responsive" src="img/portfolio/image3.jpg" alt="">
+						<img class="img-responsive" src="img/portfolio/citiad-logo.png" alt="">
 							<figcaption>
-								<h5>Portfolio 3</h5>
-								<a data-toggle="modal" href="#myModal3" class="btn btn-default">More Details</a> 
+								<h5>Citiad Promo & Prints Co.</h5>
+								<a data-toggle="modal" onclick="window.open('portfolio/citiad/')" class="btn btn-default">Live Demo</a> 
 							</figcaption>
 						</figure>
 					</div>
