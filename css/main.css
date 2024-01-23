@@ -251,7 +251,7 @@ a:before, a:after {
 }
 #about {
 	background: #fff;
-	padding: 60px 0;
+	padding: 60px 0 0 0;
 }
 #about img {
 	margin-top: 65px;
