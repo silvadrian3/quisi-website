@@ -1,13 +1,412 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite + React</title>
+    <title>Quisi.io</title>
+    <link href="css/bootstrap.css" rel="stylesheet" />
+    <link href="css/theme5/main.css" rel="stylesheet" />
+    <link href="css/font-awesome.min.css" rel="stylesheet" />
+    <link href="css/animate-custom.css" rel="stylesheet" />
+    <link href="css/font-family.css" rel="stylesheet" />
+    <link href="css/font-google-family.css" rel="stylesheet" />
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/modernizr.custom.js"></script>
   </head>
-  <body>
-    <div id="root"></div>
-    <script type="module" src="/src/main.jsx"></script>
+
+  <body data-spy="scroll" data-offset="0" data-target="#navbar-main">
+    <div id="navbar-main">
+      <div class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container">
+          <div class="navbar-header">
+            <button
+              type="button"
+              class="navbar-toggle"
+              data-toggle="collapse"
+              data-target=".navbar-collapse"
+            >
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand smoothScroll" href="#headerwrap">Quisi.io</a>
+          </div>
+
+          <div class="navbar-collapse collapse">
+            <ul class="nav navbar-nav navbar-right">
+              <li><a href="#headerwrap" class="smoothScroll">Home</a></li>
+              <li><a href="#about" class="smoothScroll"> About</a></li>
+              <li><a href="#services" class="smoothScroll"> Services</a></li>
+              <li><a href="#portfolio" class="smoothScroll"> Portfolio</a></li>
+              <li><a href="#contact" class="smoothScroll"> Contact</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ==== HEADERWRAP ==== -->
+
+    <div id="headerwrap" name="home">
+      <header class="clearfix">
+        <!--<i class="fa fa-film icon"></i>-->
+
+        <h1>Crafting Web Solutions</h1>
+        <h3>For Your Business</h3>
+        <a href="#about" class="smoothScroll btn btn-lg"
+          >Let's Start Building!</a
+        >
+      </header>
+    </div>
+
+    <!-- ==== ABOUT ==== -->
+    <div id="about" name="about">
+      <div class="container">
+        <div class="row white">
+          <h2 class="centered">ABOUT ME</h2>
+          <hr />
+          <div class="col-md-6">
+            <img class="img-responsive" src="img/about/adrian.png" align="" />
+          </div>
+          <div class="col-md-6">
+            <br />
+            With over 10 years of experience in software engineering, I created
+            innovative and scalable cloud-based solutions that is tailored to my
+            clients unique business needs.
+            <!-- 
+            <br /><br />I co-founded Symlify, a social commerce platform that
+            won third place in the Alibaba Global E-Commerce Talent Global
+            Challenge 2020. I also published a research paper on website
+            creation for small business entrepreneurs in an international
+            journal. <br /> -->
+
+            <br /><br />My primary objective is to bring success to my customers
+            by aligning with the team's vision. I am committed to delivering
+            nothing less than 100% customer satisfaction.<br /><br />With a
+            diverse array of successful ventures across industries, I've
+            established myself as a trusted partner for businesses seeking to
+            thrive in the digital era.
+
+            <div class="row">
+              <br /><br />
+              <h3 class="centered">TECH STACK</h3>
+
+              <p class="centered">
+                Angular &bull; ReactJS &bull; Progressinve Web App &bull;
+                TailwindCSS &bull; PHP &bull; Node.js &bull; Express.js &bull;
+                Serverless Framework &bull; API Integrations &bull; Amazon Web
+                Services &bull; MySQL &bull; DynamoDB &bull; Firebase<br />
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ==== OU SERVICES PAGE ==== -->
+    <div id="services" name="services">
+      <div class="container">
+        <div class="row">
+          <h2 class="centered">SERVICES</h2>
+          <hr />
+          <div class="col-lg-8 col-lg-offset-2">
+            <p class="large">
+              I am dedicated to provide my clients with excellent service. My
+              technological expertise empowers me to create groundbreaking and
+              streamlined products, enabling my clients to maintain a
+              competitive edge.
+            </p>
+          </div>
+
+          <div class="col-lg-4">
+            <img
+              class="img-responsive"
+              src="img/services/website.webp"
+              alt=""
+            />
+            <h3>Responsive Website</h3>
+            <p>
+              A responsive website that are both aesthetically pleasing on all
+              devices and highly functional to promote your products/services
+              online across every flatform
+            </p>
+          </div>
+          <div class="col-lg-4">
+            <img
+              class="img-responsive"
+              src="img/services/web-app.webp"
+              alt=""
+            />
+            <h3>Custom Web Application</h3>
+            <p>
+              A customized cloud-based application to provide a platform to
+              interact with your custoers, automate internal processes and help
+              you run your business efficiently
+            </p>
+          </div>
+          <div class="col-lg-4">
+            <img
+              class="img-responsive"
+              src="img/services/e2e-solutions.webp"
+              alt=""
+            />
+            <h3>End-to-End Web Solution</h3>
+            <p>
+              A comprehensive end-to-end solution that cater the unique needs of
+              your business, from website development and CMS, to custom web
+              applications
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ==== PORTFOLIO PAGE ==== -->
+    <div id="portfolio" name="portfolio">
+      <div class="container">
+        <div class="row">
+          <h2 class="centered">MY PORTFOLIO</h2>
+          <hr />
+          <div class="col-lg-8 col-lg-offset-2">
+            <p class="large">
+              I take pride in crafting cutting-edge solutions that redefine the
+              online experience. My portfolio is a testament to my commitment to
+              pushing boundaries and delivering bespoke software solutions
+              tailored to my clients' unique needs.
+              <br /><br />
+              Explore my portfolio and witness firsthand the transformative
+              impact of my software engineering expertise.
+            </p>
+          </div>
+        </div>
+
+        <div class="container">
+          <div class="row">
+            <div class="col-md-4">
+              <div class="grid mask">
+                <figure>
+                  <img
+                    class="img-responsive"
+                    src="img/portfolio/simpletruth-logo.png"
+                    alt=""
+                  />
+                  <figcaption>
+                    <h5>SimpleTruth</h5>
+                    <a
+                      data-toggle="modal"
+                      onclick="window.open('https://simpletruth.d2iql081jnqc1.amplifyapp.com')"
+                      class="btn btn-default"
+                      >Live Demo</a
+                    >
+                  </figcaption>
+                </figure>
+              </div>
+            </div>
+
+            <!--
+				<div class="modal fade" id="myModal1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+					<div class="modal-dialog">
+						<div class="modal-content">
+							<div class="modal-header">
+								<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+								<h4 class="modal-title">Portfolio 1</h4>
+							</div>
+							<div class="modal-body">
+								<p><img class="img-responsive" src="img/portfolio/image1.jpg" alt=""></p>
+								<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
+								<p><b><a href="#">Visit Site</a></b></p>
+							</div>
+							<div class="modal-footer">
+								<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+							</div>
+						</div>
+					</div>
+				</div>
+                -->
+
+            <div class="col-md-4">
+              <div class="grid mask">
+                <figure>
+                  <img
+                    class="img-responsive"
+                    src="img/portfolio/q11-logo.png"
+                    alt=""
+                  />
+                  <figcaption>
+                    <h5>Q11 GPS Assist</h5>
+                    <a
+                      data-toggle="modal"
+                      onclick="window.open('https://q11.dy0jbjow1uke7.amplifyapp.com')"
+                      class="btn btn-default"
+                      >Live Demo</a
+                    >
+                  </figcaption>
+                </figure>
+              </div>
+            </div>
+
+            <!--
+				<div class="modal fade" id="myModal2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+					<div class="modal-dialog">
+						<div class="modal-content">
+							<div class="modal-header">
+								<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+								<h4 class="modal-title">Portfolio 2</h4>
+							</div>
+							<div class="modal-body">
+								<p><img class="img-responsive" src="img/portfolio/image2.jpg" alt=""></p>
+								<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
+                                <p><b><a href="#">Visit Site</a></b></p>
+							</div>
+							<div class="modal-footer">
+								<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+							</div>
+						</div>
+					</div>
+				</div>
+                -->
+
+            <div class="col-md-4">
+              <div class="grid mask">
+                <figure style="background-color: #ffffff">
+                  <img
+                    class="img-responsive"
+                    src="img/portfolio/citiad-logo.png"
+                    alt=""
+                  />
+                  <figcaption>
+                    <h5>Citiad Promo & Prints Co.</h5>
+                    <a
+                      data-toggle="modal"
+                      onclick="window.open('https://citiad.dninfszghwr9j.amplifyapp.com')"
+                      class="btn btn-default"
+                      >Live Demo</a
+                    >
+                  </figcaption>
+                </figure>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ==== CONTACT PAGE ==== -->
+    <div id="contact" name="contact">
+      <div class="container">
+        <div class="row">
+          <h2 class="centered">CONTACT US</h2>
+          <hr />
+          <!--
+			<div class="col-md-4 centered"> 
+				<i class="fa fa-map-marker fa-2x"></i>
+				<p>Level 30, Makati Building<br>
+				Makati City</p>
+			</div>
+			<div class="col-md-4"> 
+				<i class="fa fa-envelope-o fa-2x"></i>
+				<p>info@quisi.com</p>
+			</div>
+			<div class="col-md-4"> 
+				<i class="fa fa-phone fa-2x"></i>
+				<p> +123 4567</p>
+			</div>
+            -->
+        </div>
+
+        <div class="row">
+          <div class="col-lg-10 col-lg-offset-1 centered">
+            <div class="col-lg-12"><br /></div>
+            <h4 class="text-left">
+              Request a Qoute. It's Free and will always be.<br /><br />
+            </h4>
+            <p class="text-left">
+              Get your free qoute by filling up and submitting the form. We
+              assure you that the information you provided will not be shared
+              with any 3rd parties under any circumstances.
+            </p>
+
+            <form name="sentMessage" id="contactForm" class="form" novalidate>
+              <div class="row">
+                <div class="col-lg-6 col-lg-offset-3">
+                  <div class="col-lg-12 form-group">
+                    <input
+                      type="text"
+                      id="name"
+                      class="form-control"
+                      placeholder="Complete Name"
+                    />
+                  </div>
+                  <div class="col-lg-12 form-group">
+                    <input
+                      type="email"
+                      id="email"
+                      class="form-control"
+                      placeholder="Email Address"
+                      required="required"
+                    />
+                  </div>
+                  <div class="col-md-12 form-group">
+                    <textarea
+                      name="message"
+                      id="message"
+                      class="form-control"
+                      rows="5"
+                      placeholder="Message"
+                      style="resize: none"
+                    ></textarea>
+                  </div>
+                  <button class="btn btn btn-lg" type="submit">
+                    Request a Quote Now!
+                  </button>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="footerwrap">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8">
+            <span class="copyright"
+              >&copy; <span id="currentYear"></span> Quisi.io. All Rights
+              Reserved.</span
+            >
+          </div>
+
+          <div class="col-md-4">
+            <ul class="list-inline social-buttons">
+              <li>
+                <a href="#"><i class="fa fa-twitter"></i></a>
+              </li>
+              <li>
+                <a href="#"><i class="fa fa-facebook"></i></a>
+              </li>
+              <li>
+                <a href="#"><i class="fa fa-google-plus"></i></a>
+              </li>
+              <li>
+                <a href="#"><i class="fa fa-linkedin"></i></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/retina.js"></script>
+    <script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
+    <script type="text/javascript" src="js/smoothscroll.js"></script>
+    <script type="text/javascript" src="js/jqBootstrapValidation.js"></script>
+    <script type="text/javascript" src="js/contact_me.js"></script>
+    <script type="text/javascript" src="js/jquery-func.js"></script>
+    <script>
+      var date = new Date().getFullYear();
+      document.getElementById("currentYear").innerHTML = date;
+    </script>
   </body>
 </html>
