@@ -217,22 +217,22 @@ a:before, a:after {
 }
 #headerwrap h1 {
     font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
-	color: #222;
+	color: #F0F0F0;
 	font-size: 70px;
 	font-weight: 700;
     padding-top: 250px;
 	text-align: center;
 	letter-spacing: 3px;
-    text-shadow:2px 1px #F0F0F0;
+    text-shadow:2px 1px #222;
 }
 #headerwrap h3 {
     font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
-	color: #222;
+	color: #F0F0F0;
 	font-size: 40px;
 	font-weight: 700;
 	text-align: center;
 	letter-spacing: 1px;
-    text-shadow:1.5px 1px #F0F0F0;
+    text-shadow:1.5px 1px #222;
 }
 #headerwrap .icon {
 	color: #ffffff;
@@ -249,14 +249,14 @@ a:before, a:after {
 	font-size: 20px;
 	margin: 120px 0 0px 0;
 	color: #fff;
-    background-color: rgba(0,0,0,0.4);
+    background-color: rgba(0,0,0,0.6);
 	border: 0;
 }
 #headerwrap .btn:hover, #headerwrap .btn:focus {
 	
 	outline: 0px;
     color: #fff;
-    background-color: rgba(0,0,0,0.7);
+    background-color: rgba(0,0,0,0.9);
 }
 #about {
 	background: #f5f5f5;
@@ -266,17 +266,27 @@ a:before, a:after {
 #about img {
 	margin-top: 0px;
 }
+
+#about h3 {
+	margin-top: 10px;
+}
+
 #services {
 	background: #FFFFFF;
 	padding: 80px 0;
 	text-align: center;
+}
+
+
+#services h3 {
+	margin: 20px 0px 30px 0px;
 }
 #services .fa {
 	color: rgba(0,0,0,0.4);
     margin-bottom: 20px;
 }
 #services p {
-	text-align: center;
+	text-align: justify;
 }
 #team {
 	background: #f5f5f5;
