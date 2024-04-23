@@ -361,14 +361,12 @@ a:after {
   padding: 30px 0 60px 0;
 }
 
-
-
 #contact p {
-	font-size: 18px;
+  font-size: 18px;
 }
 
 .form-control {
-	font-size: 16px;
+  font-size: 16px;
 }
 #contact .text-danger {
   color: #e74c3c;
@@ -462,7 +460,7 @@ ul.social-buttons li {
 }
 
 ul.social-buttons > li > a {
-    color: #999;
+  color: #999;
 }
 
 ul.social-buttons > li > a:hover,
@@ -504,7 +502,7 @@ ul.social-buttons li a:active {
 .grid figcaption h5 {
   margin: 0;
   padding-top: 0px;
-  padding-left: 20px;
+  padding-left: 10px;
   padding-bottom: 5px;
   color: #fff;
   font-weight: 700;
